@@ -1,0 +1,8 @@
+a=int(input("Введіть 1 число"))
+b=int(input("Введіть 2 число"))
+x=int(input("Введіть число яке порівняти"))
+
+if b>x>a:
+    print(True)
+if x>b:
+    print(False)
