@@ -4,5 +4,7 @@ x=int(input("Введіть число яке порівняти"))
 
 if b>x>a:
     print(True)
-if a>x>b:
+if x>b:
+    print(False)
+if a>x:
     print(False)
